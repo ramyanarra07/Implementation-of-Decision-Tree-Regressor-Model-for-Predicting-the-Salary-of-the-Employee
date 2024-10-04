@@ -9,20 +9,24 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 
 ## Algorithm
 step 1. start
+
 step 2. Load dataset and split into features (`X`) and target (`y`).
+
 step 3. Train a Decision Tree Regressor on `X` and `y`.
+
 step 4. Predict salary values using the trained model.
+
 step 5. Evaluate model performance using MSE and R² metrics.
+
 step 6. Plot and visualize the decision tree structure.
 ## Program:
 ```
 /*
-Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
+Program to implement the Decision Tree Regressor Model
+for Predicting the Salary of the Employee.
 Developed by: NARRA RAMYA
 RegisterNumber: 212223040128 
 */
-```
-```
 # Import necessary libraries
 import pandas as pd
 from sklearn.tree import DecisionTreeRegressor
